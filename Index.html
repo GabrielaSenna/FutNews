@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>FutNews</title>
+    
+</head>
+<body>
+      <div class ="header2">
+        <div>
+            <img id = "simbolo" src="./img/Untitled design.png" >
+            <img id = "nome" src="./img/logo.jpg" >
+        </div>
+
+        <div class="divBusca">
+            <input type="text" class="caixa-de-texto-busca" placeholder="procurar..." >
+            <button id = "btn-buscar" onclick="myFunction()"><img src="./img/lupa.png"></button> 
+        </div>
+        </div>
+    </div>
+    <!--Carrosel de banners-->
+    <section class="home">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./img/banner1.png')">
+            </div>
+            <div class="slide" style="background-image: url('./img/banner2.png')">
+            </div>
+            <div class="slide" style="background-image: url('./img/banners\ FutNews.png')">
+            </div>
+            <div class="slide" style="background-image: url('./img/banner4.png')">
+            </div>
+        </div>
+
+    <div class="controls">
+        <div class="prev"></div>
+        <div class="next">></div>
+    </div>
+
+    <div class="indicator">
+    </div>
+    </section>
+
+  <!--Previas matérias--> 
+        <br>
+        <h2>Escolha uma das matérias abaixo para ler hoje.</h2>
+        <br>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./img/card1.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="./CardUm.html">Cristiano no City?</a></h5>
+          <p class="card-text">Mais um time entrou para a lista de especulações! E dessa vez a grande aposta do público é o Manchester City. Será que é verdade? E as probabilidades? Vem entender melhor sobre isso!</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Atualizados 1 atrás</small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="./img/card2.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="./CardDois.html">Torcidas de volta aos estadios </a></h5>
+          <p class="card-text">Bateu uma saudade da energia dos estádios ne, Torcedor(a)?! Vem ficar por dentro dos decretos e do que tem sido especulado pela CBF.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Atualizados 18 horas atrás</small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="./img/card3.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="./CardTres.html">Final da Libertadores</a></h5>
+          <p class="card-text">Não poderiamos de deixar de trazer a visão dos nossos especialistas e do público sobre essa tão famigerada final da Liberta com os dois gigantes: Galo e Fla. Para entender tudo que tem rolado, é só dar um clique.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Atualizados 9 dias atrás</small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="./img/card4.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title"><a href="./CardQuatro.html">17º Rodada do Brasileirão</a></h5>
+          <p class="card-text">Quer ficar por dentro da próxima rodada do Brasileirão? Vem da uma conferida nessa reportagem incrível e super divertida!</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Atualizados 5 dias atrás</small>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <!--Rodapé personalizado-->
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class='bx bxl-slack'></i>
+            </div>
+
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Plataforma</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Matérias</a></li>
+              <li><a href="./Logistica.html">Logistica</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Perfil</li>
+              <li><a href="#">Minha conta</a></li>
+              <li><a href="#">Preferencias</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Cadastre-se para não perder nenhuma novidade do seu time favorito!</li>
+              <li><input type="text" placeholder="Seu Email"></li>
+              <li><input type="button" value="Cadastrar"></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text"> FutNews &#169; 2021   |   Site desenvolvido e projetado por Gabriela Senna</span>
+            <span class="policy_terms">
+              <a href="">Termos de Uso</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+      <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./carrossel.js">
+
+      </script>
+
+
+      
+</body>
+</html>

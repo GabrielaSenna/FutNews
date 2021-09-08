@@ -1,0 +1,28 @@
+.conteudo{
+    color: #f3f3f3 ;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 2.em;
+    margin-left: 2.em;
+    background: #28124a;
+    padding: 2.5em;
+    padding-top: auto;
+}
+
+.header{
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, Arial,;
+    
+ }
+
+ footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+ 
+  
+
+  
